@@ -1,0 +1,23 @@
+{
+  "name": "bitchute_redirect",
+  "version": "1.0.0",
+  "description": "Twitter blocks redirects to bitchute. This project is a way to surpass this limitation",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Haris87/bitchute_redirect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Haris87/bitchute_redirect/issues"
+  },
+  "homepage": "https://github.com/Haris87/bitchute_redirect#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

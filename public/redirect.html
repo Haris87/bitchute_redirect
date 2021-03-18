@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Bitchute video redirect</title>
+  </head>
+  <body>
+    <h2>Redirecting...</h2>
+    <a id="redirect">click here to go to video</a>
+
+    <script type="text/javascript">
+      console.log(window.location.href);
+      var BITCHUTE = "https://www.bitchute.com/video/";
+      var parts = window.location.href.split("/");
+      var videoId = parts[parts.length - 1];
+      var redirectUrl = BITCHUTE + videoId;
+      // window.location.href = redirectUrl;
+      document.getElementById("redirect").href = redirectUrl;
+    </script>
+  </body>
+</html>
